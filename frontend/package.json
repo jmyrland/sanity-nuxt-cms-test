@@ -8,9 +8,12 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "now-build": "nuxt build --spa"
   },
   "dependencies": {
+    "@sanity/client": "^0.140.8",
+    "@sanity/image-url": "^0.140.8",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0"
   },
