@@ -7,6 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import headerLinks from './headerLinks'
 import product from './product'
 import frontpage from './frontpage'
+import page from './page'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -16,6 +17,7 @@ export default createSchema({
   types: schemaTypes.concat([
     headerLinks,
     product,
-    frontpage
+    frontpage,
+    page
   ])
 })
